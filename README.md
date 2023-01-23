@@ -1,1 +1,1 @@
-# Study_codingApple
+# Study_JS_codingApple
