@@ -1,0 +1,29 @@
+/*
+ # UI 만드는 STEP  
+
+ 1. HTML/CSS로 미리 디자인(필요하면 미리숨김 html/css로 숨기는 법있음)
+
+ 2. 필요할 때 보여달라고 코드짬(자바스크립트로)
+
+ 3. -끝-  
+    
+ */
+
+.alert-box{
+    background-color: skyblue;
+    padding: 2px;
+    color : white;  
+    border-radius: 5px;
+    display: none;
+    
+}      
+/* display : none; ==  UI를 숨기고싶을때 -- 지금은 버튼만 보이게 
+            block; == 보이게 할떄                         */
+
+
+.cancel{
+    color : black;
+    border-color:gray;
+    margin-left: 75%;
+}
+ 

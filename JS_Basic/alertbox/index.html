@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+
+<body>
+
+    <div class='alert-box' id='alert'>
+        알림창임
+        <button class="cancel" onclick="openAlert('none');"> X </button>
+    </div>
+    <button onclick="openAlert('block');">열기</button>
+
+
+
+    <script>
+
+        function openAlert(구멍) {
+            document.getElementById('alert').style.display = 구멍;
+        }
+
+        
+    
+    
+
+    </script>
+
+
+
+</body>
+
+</html>
