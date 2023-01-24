@@ -12,22 +12,34 @@
 <body>
 
     <div class='alert-box' id='alert'>
-        알림창임
-        <button class="cancel" onclick="openAlert('none');"> X </button>
+        <p id = login>알림창임</p>
+        <button class="cancel" onclick="alertContent('none');"> X </button>
     </div>
-    <button onclick="openAlert('block');">열기</button>
+    
+    <button onclick="alertContent('block','ID입력');">버튼1</button>
+    <button onclick="alertContent('block','PW입력');">버튼2</button>
 
 
 
     <script>
 
-        function openAlert(구멍) {
-            document.getElementById('alert').style.display = 구멍;
+        function alertContent(hello,change) {
+            document.getElementById('alert').style.display = hello;
+            document.getElementById('login').innerHTML = change;
         }
-
+            
+    
         
-    
-    
+        
+        
+        
+       
+        
+        
+
+
+
+
 
     </script>
 
