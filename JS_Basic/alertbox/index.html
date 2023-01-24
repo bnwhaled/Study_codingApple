@@ -16,8 +16,11 @@ function X(박스변경,알림창문구){
     document.getElementById('박스').style.display = 박스변경
     document.getElementById('알림창').innerHTML = 알림창문구
     // 또는 
-    // document.getElementByIdClassName('alert-box')
-    //이렇게도 불러오기 가능
+    // document.getElementByClassName('alert-box')
+    //이렇게도 불러오기 가능하쥬
+    //class명은 중복지정 가능 ==> 겟엘리네임은 있는 거 다찾아주므로
+    //document.getElemntByClassName('cancel')[1]와 같이 인덱싱필요
+    //위에서부터 몇번째(인터프리터)
 }
 </script>
   </body>
