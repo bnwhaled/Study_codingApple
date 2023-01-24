@@ -1,0 +1,33 @@
+<!--
+ Eventlistner
+
+ js 코드 없이도 선언가능
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="alert-box" id="박스">
+      <p id="알림창">알림창임</p>
+      <button class="cancel" id="close">닫기</button>
+    </div>
+
+    <button onclick="아이디알림창()">버튼1</button>
+    <button onclick="비번알림창()">버튼1</button>
+<script>
+document.getElementById('close').addEventListener('mouseover',function(){
+  document.getElementById('박스').style.display = 'none';
+});
+//요 아이디값이 close인 친구를 클릭했을때 어떤 기능을 수행할 수 있게 만든 함수 
+//파라미터 2개 필요    =>    addEventListener(프로퍼티, 기능(함수))
+//event == mouseover : 마우스갖다대면 코드실행
+
+
+
+</script>
+  </body>
+</html>
