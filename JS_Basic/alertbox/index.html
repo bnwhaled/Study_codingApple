@@ -1,50 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-
-
-</head>
-
-<body>
-
-    <div class='alert-box' id='alert'>
-        <p id = login>알림창임</p>
-        <button class="cancel" onclick="alertContent('none');"> X </button>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="alert-box" id="박스">
+      <p id="알림창">알림창임</p>
+      <button class="cancel" onclick="X('none')">닫기</button>
     </div>
-    
-    <button onclick="alertContent('block','ID입력');">버튼1</button>
-    <button onclick="alertContent('block','PW입력');">버튼2</button>
-
-
-
-    <script>
-
-        function alertContent(hello,change) {
-            document.getElementById('alert').style.display = hello;
-            document.getElementById('login').innerHTML = change;
-        }
-            
-    
-        
-        
-        
-        
-       
-        
-        
-
-
-
-
-
-    </script>
-
-
-
-</body>
-
+    <button onclick="X('block','아이디입력')">아이디버튼</button>
+    <button onclick="X('block','비번입력')">비번버튼</button>
+<script>
+function X(박스변경,알림창문구){
+    document.getElementById('박스').style.display = 박스변경
+    document.getElementById('알림창').innerHTML = 알림창문구
+    // 또는 
+    // document.getElementByIdClassName('alert-box')
+    //이렇게도 불러오기 가능
+}
+</script>
+  </body>
 </html>
