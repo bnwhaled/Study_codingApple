@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-</head>
-<body>
-    <h1 id='hello'>안녕하세요</h1>
-    <h1 id='hi'>JS 초보에요</h1>
-
+  </head>
+  <body>
+    <h1 id="hello">안녕하세요</h1>
+    <h1 id="hi">JS 초보에요</h1>
 
     <script>
-        //getElementByID ==> '셀렉터'라고함 ==> 웹문서내 원하는 요소 찾을때 씀
-        document.getElementById('hello').innerHTML = '안녕';
-        //문서.(의) html 요소하나 가져와(id에 의한) html내의(.) = 안녕으로 바까라
-        //style class href 등등 다 바꿀수 있음
-       // document.getElementById('??').?? = ?? // 물음표만 잘 바까라
-                        //바꿀요소(id).무엇을 = 어떻게
-        //ex)
-        document.getElementById('hello').style.color = 'red'; 
-        //h1태그 JS 고수에요로 바꾸기
-        document.getElementById('hi').innerHTML = 'JS 고수에요'
-        document.getElementById('hello').style.fontSize = '19px';
-        
+      //getElementByID ==> '셀렉터'라고함 ==> 웹문서내 원하는 요소 찾을때 씀
+      document.getElementById("hello").innerHTML = "안녕";
+      //문서.(의) html 요소하나 가져와(id에 의한) html내의(.) = 안녕으로 바까라
+      //style class href 등등 다 바꿀수 있음
+      // document.getElementById('??').?? = ?? // 물음표만 잘 바까라
+      //바꿀요소(id).무엇을 = 어떻게
+      //ex)
+      document.getElementById("hello").style.color = "red";
+      //h1태그 JS 고수에요로 바꾸기
+      document.getElementById("hi").innerHTML = "JS 고수에요";
+      document.getElementById("hello").style.fontSize = "19px";
     </script>
 
-<script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
-            </body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+      integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -49,7 +49,7 @@ promise
   //위의 ..점두개 프로퍼티 사용은 promise의 then 호출 후
   //리턴된 값을 다시 promise가 받음 다른 객체에서도 사용가능
 
-  //최근 추가된 프로퍼티 : 에러뜨든 말든 그냥 무조건 실행
+  //finally 최근 추가된 프로퍼티 : 에러뜨든 말든 그냥 무조건 실행
   .finally(() => {
     console.log("finally");
   });
@@ -113,3 +113,5 @@ getHen() //
   .then(getCook)
   .then(console.log)
   .catch(console.log);
+
+// 달걀 => 계란 출력됨(닭에서 데이터 주는 것 실패했을 때 코드 실행)
