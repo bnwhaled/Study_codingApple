@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-bg">
+      <h4>Shirt on Sale</h4>
+      <button id="login" class="btn btn-danger">로그인</button>
+    </div>
+
+    <div class="alert alert-danger">5초이내 구매시 사은품 증정!</div>
+
+    <script>
+      //몇초 후에 코드실행, (파라미터2개//콜백함수, 초단위(ms단위))
+      setTimeout(function () {
+        alert("2초경과");
+      }, 1000);
+
+      setTimeout(함수, 5000);
+
+      function 함수() {
+        console.log("안녕");
+      }
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

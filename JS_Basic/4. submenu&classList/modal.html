@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="modal.css" />
+  </head>
+  <body>
+    <button class="clik">눌러봐</button>
+    <div class="black-bg">
+      <div class="white-bg">
+        <h4>로그인하세요</h4>
+        ID입력 <input type="text" /><br />
+        PW입력 <input type="text" />
+        <button class="btn btn-danger" id="close">닫기</button>
+      </div>
+    </div>
+    <script>
+      $("#close").on("click", function () {
+        $(".black-bg").hide();
+      });
+
+      $(".clik").on("click", function () {
+        $(".black-bg").show();
+      });
+    </script>
+  </body>
+</html>

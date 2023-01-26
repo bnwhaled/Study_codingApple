@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <button id="aa">뭐하냐</button>
+    <button class="bb">asd</button>
+    <p clsss="hello">adsf</p>
+    <script>
+      //Jquery 기본함수
+
+      // document.getElementById('aa').style.color = 'red';
+      // document.querySelector("aa").addEventListener("click", function () {
+      //   document.getElementsByClassName("bb").style.color = "red";
+      // });
+
+      // JQuery 예시
+      $(".hello").css("color", "red");
+      $(".hello").addClass("abc");
+      $(".hello").toggleClass("toogle");
+      $(" .hello").removeClass("toogle");
+    </script>
+  </body>
+</html>
