@@ -5,13 +5,14 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
   padding: 30px;
-  diplay: none;
+  display: none;
 }
 .white-bg {
   background: white;
   border-radius: 5px;
   padding: 30px;
 }
-.shown {
+
+.show-modal {
   display: block;
 }

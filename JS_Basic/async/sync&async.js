@@ -23,6 +23,7 @@ console.log(user);
 // 코드블록이 자동으로 프로미스로 바뀜 아래와 같이
 
 async function fetchUser() {
+  ㅌ;
   //백엔드에서 가져오는 함수라고 가정하자(10초걸린다고 가정)
   //   return new Promise((resolve, reject) => {
   //     resolve("ellie");
