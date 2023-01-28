@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <script src="form.js"></script>
+  </head>
+  <body>
+    <h3>navbar</h3>
+    <div class="box">
+      <div>
+        <p><br />할인합니덩</p>
+      </div>
+      <button class="loginbtn">로그인</button>
+    </div>
+
+    <div class="box2">
+      <div>로그인하세요</div>
+      <input type="text" placeholder="ID" /><br />
+      <input type="text" placeholder="PW" />
+    </div>
+    <script>
+      $(".loginbtn").on("click", function () {
+        $(".box2").addClass("hiding");
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

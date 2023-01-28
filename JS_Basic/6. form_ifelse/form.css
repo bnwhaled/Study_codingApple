@@ -1,0 +1,15 @@
+.box {
+  background-color: whitesmoke;
+  height: 100px;
+  text-align: center;
+  display: block;
+}
+.box2 {
+  background-color: antiquewhite;
+  height: 70px;
+  text-align: center;
+  display: none;
+}
+.hiding {
+  display: block;
+}
