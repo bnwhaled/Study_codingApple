@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="form.css" />
-    <script src="form.js"></script>
   </head>
   <body>
-    <h3>navbar</h3>
-    <div class="box">
-      <div>
-        <p><br />할인합니덩</p>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-      <button class="loginbtn">로그인</button>
+    </nav>
+    <div>
+      <div class="loginbox">
+        <div class="inbox">
+          <div class="logintitle"><button>로그인</button></div>
+          <div class="inputwrap">
+            <input type="text" placeholder="ID" />
+            <input type="text" placeholder="PW" />
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="box2">
-      <div>로그인하세요</div>
-      <input type="text" placeholder="ID" /><br />
-      <input type="text" placeholder="PW" />
+    <div>
+      <button class="loginbtn">로그인하기</button>
     </div>
+    
     <script>
-      $(".loginbtn").on("click", function () {
-        $(".box2").addClass("hiding");
-      });
+      ${'.loginbtn'}.on{'click',function(){
+        ${'.loginbox'}.addClass{'logseen'}
+      }}
     </script>
+
     <script
       src="https://code.jquery.com/jquery-3.6.3.min.js"
       integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
   </body>

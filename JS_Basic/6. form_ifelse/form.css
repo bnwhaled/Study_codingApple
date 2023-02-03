@@ -1,15 +1,19 @@
-.box {
-  background-color: whitesmoke;
+.loginbox {
+  background-color: lightgray;
+  width: 20%;
   height: 100px;
-  text-align: center;
-  display: block;
-}
-.box2 {
-  background-color: antiquewhite;
-  height: 70px;
-  text-align: center;
+  margin-left: 30px;
   display: none;
 }
-.hiding {
+.logseen {
   display: block;
+}
+.logintitle {
+  text-align: center;
+  text-decoration: underline;
+}
+.inbox {
+}
+.inputwrap {
+  text-align: center;
 }
